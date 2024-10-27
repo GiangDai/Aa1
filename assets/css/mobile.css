@@ -1,0 +1,352 @@
+/* .offcanvas offcanvas-start{
+    border-radius: 0px 15px 15px 0px !important;
+} */
+.offcanvas-body{
+margin-top: 40px;
+margin-left: 20px;
+margin-right: 20px;
+}
+.menutab{
+    width: 100%;
+    height: 100%;
+    overflow-x:  auto;
+    /* scrollbar-width: thin; */
+    overflow-y: scroll;
+    /* scrollbar-color: red #ccc;
+    scrollbar-width: thin;
+    scrollbar-width: 2px !important; */
+    /* scrollbar-gutter: stable; */
+
+}
+.tab_tab{
+    display: flex;
+    width: 95%;
+}
+.tab{
+    display: flex;
+    height:64px;
+    position: relative;
+    width: 100%;
+}
+.tab ::after{
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 290px;
+    height: 1px;
+    background-color: #f5f5f5;
+    position: absolute;
+}
+.btn-close{
+    font-size: 15px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 118px;
+}
+.timkiem_mb{
+    position: relative;
+    margin-top: 5%;
+    width: 95%;
+    height: 65px;
+}
+.search-form{
+    margin-top: 6%;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+.icontab{   
+    margin: 10px;
+    font-size: 18px;
+    color: #7e6767;  
+    border: 0.5px; 
+
+}
+.search-input{
+    width: 100%;
+    height: 100%;
+    border-radius: 5% 5%;
+    border: 2px solid #f5f5f5;
+    /* outline: none; */
+}
+.ict{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+
+}
+.ultab{
+    list-style: none;
+    padding: 0 ;
+    margin: 0 ;
+    color: black;
+}
+.navbar a{
+    text-decoration: none;
+    color: inherit;
+    padding: 0;
+    flex: auto;
+}
+.lin{
+    width: 298px;
+    height: 41px;
+    margin-top: 16px;
+    position: relative;
+}
+.menu_ex{
+    right: 17px;
+    position: absolute;
+    top: 0px;
+    /* height: 100%; */
+    /* margin: 10px; */
+    width: 24px;
+    height: 41px;
+}
+.tab_ex{
+    font-size: 15px;
+    display: block;
+    align-content: center;
+
+}
+.navbar_trangchu_mb{
+    display: flex;
+    /* gap: 171px; */
+    width: 283px;
+    /* margin-bottom: 33px; */
+    height: 44px;
+    max-width: 100%;
+    margin-top: 16px;
+}
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+    width: 102%;
+    margin-top: 16px;
+}
+
+.navbar-brand{
+    margin-left: -15px;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+}
+.button_congtru{
+    /* padding: 10px !important; */
+    /* border: #fff !important; */
+    /* background: #fff !important;*/
+    margin-right: -6px !important;
+}
+.navbar-toggler-con{
+    border: 0;
+    background: 0;
+}
+.input-search-line{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+.input-search-line:focus-within{
+    /* border-color: ; */
+    border: 1px solid rgb(44, 131, 245);
+}
+
+.input-search-line input{
+    padding: 5px;
+    outline: none;
+    border: none;
+}
+.menu-trangchu{
+    height: 100%;
+    width: 100%;
+}
+.menu-trangchu-1{
+    width: 100%;
+    height: 100px;
+    background: red;
+    display: none;
+}
+.ngonngu-mb{
+    /* margin-top:40px; */
+/* width: 100%;
+height: 100%; */
+}
+.ngonngu-li{
+height: 40px;
+position: relative;
+margin-left: 20px;
+}
+.ngonngu-mb a {
+    text-decoration: none; /* Loại bỏ gạch chân */
+    color: #000;
+    padding-left: 0; 
+    margin-left: 0;
+  }
+.ngonngu-mb ul li{
+  list-style-type: none; /* Loại bỏ chấm */
+  text-decoration: none; 
+  color: #000;
+
+}
+
+.ngonngu-mb-ul{
+    list-style-type: none; /* Loại bỏ chấm */
+    padding-left: 0; 
+    text-decoration: none; 
+    color: #000;
+    margin-bottom: 0;
+}
+
+.ngonngu-div{
+    position: absolute;
+    display: none;
+    border-top: 1px solid #ddd;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(236, 209, 201, 0.5);
+    top: 37px;
+    right: 18%;
+    z-index: 99;
+}
+.button-mb{
+    /* position: relative; */
+    /* font-size: 20px; */
+    color: #000;
+    background: #fff;
+    border: #fff;
+    font-size: 15px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.xuong{
+    margin-left: 5px;
+}
+.mony-mb {
+    width: 100%;
+    height: 40px;
+}
+.mony-mb-ul{
+    list-style-type: none; /* Loại bỏ chấm */
+    padding-left: 0; 
+    color: #000;
+    margin-bottom: 0; 
+    height: 100%;
+  }
+  .mony-li{
+    position: relative;
+    height: 100%;
+    padding-top: 0px;
+    margin-left: 20px;
+  }
+  .mony-div{
+    position: absolute;
+    /* display: none; */
+    border-top: 1px solid #ddd;
+    background: #fff;
+    top: 37px;
+    right: 18%;
+    box-shadow: 0 0 15px rgba(211, 154, 140, 0.5);
+    display: none;
+    z-index: 99;
+  }
+.li{
+    list-style-type: none; /* Loại bỏ chấm */
+    padding-left: 0; 
+    text-decoration: none; 
+    color: #000;
+    margin-left: 0;
+  }
+.line{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background: #ebebeb;
+    height :0.5px;
+    width: 88%;
+}
+.user-mb{
+    height: 50px;
+    background: #fff;
+    margin-top: 24px;
+}
+.icon_taikhoan_mb{
+    margin-right: 35px;
+    margin-left: 20px;
+    /* margin: 30px; */
+    /* padding-bottom: 20px; */
+    /* padding-top: 20px; */
+    padding: 17px;
+    border-radius: 12%;
+    background: #fff;
+    border: 1px solid #ebebeb;
+}
+.user-mb a{
+    color: #000;
+}
+.mang_xa_hoi{
+    height: 56px;
+}
+.mang_xa_hoi ul{
+    list-style-type: none;
+}
+.mang_xa_hoi_ul{
+    display: flex;
+    text-align: center;
+    width:100%;
+    /* justify-content: center; */
+    line-height: 40px;
+    gap: 10px;
+    padding: 20px;
+    /* margin-bottom: 27px;*/
+}
+.mang_xa_hoi_ul li a{
+    height: 40px;
+    width: 40px;
+    background: #ebebeb;
+    display: block;
+    /* margin-right: 10px; */
+    border-radius: 14%;
+    color: #000;
+}
+.item_categories_mb{
+        /* margin-bottom: 44px; */
+    /* padding-right: 10px; */
+    justify-self: center;
+    display: flex;
+    /* padding-left: 2px; */
+    flex-direction: column;
+    width: 30px;
+    margin-left: 65px;
+}
+.item_categories_sp_mb{
+            /* margin-bottom: 44px; */
+    /* padding-right: 10px; */
+    justify-self: center;
+    display: flex;
+    /* padding-left: 2px; */
+    flex-direction: column;
+    width: 26px;
+    margin-left: 120px;
+}
+.narbar_mbb{
+    margin-top: -15px;
+}
+.tab_ex_mb{
+    font-size: 15px !important;
+}
+
+
+.menutab::-webkit-scrollbar {
+    width: 2px;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+}
+
+.menutab::-webkit-scrollbar-thumb {
+    background-color: #ddd;
+}

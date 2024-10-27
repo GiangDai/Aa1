@@ -1,0 +1,28 @@
+
+/* Desktop 1200 - up */
+@media (min-width: 1200px)  {
+
+
+}
+
+/* Normal desktop :992px. (Laptop 14") */
+@media (min-width: 992px) and (max-width: 1199px) {
+   
+}
+
+
+/* Tablet device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+
+/* small mobile :320px. */
+@media (min-width: 413px) and (max-width: 767px) {
+
+
+}
+
+@media (max-width: 412px) {
+    
+}

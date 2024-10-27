@@ -1,0 +1,319 @@
+body .category__tile{
+    margin-top: 20px;
+}
+
+body .category__tile .img__tile .img__zom{
+width: 100%;
+height: 100%;
+border-radius: 10px;
+}
+body .category__tile .img__tile{
+    margin: 10px;
+    position: relative;
+}
+.category__tile .img-category{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.category__tile .list__img{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.category__tile .swiper__cate--add{
+
+    position: initial;
+}
+.category__tile .next__cate--add{
+    position: absolute;
+    top: 160px;
+    right: 500px;
+    /* left: 0px; */
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    font-weight: 900;
+}
+.category__tile .next__cate--add::after{
+    font-size: 15px;
+    color: black;
+}
+/* .category__tile .swiper-slide{
+    margin-right: 10px !important;
+} */
+.category__tile .tt_new{
+    border-radius: 5px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(117, 95, 91, 0.5);
+}
+.category__tile .tt_icon{
+    border-radius: 5px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.category__tile .tt_new .newwww{
+margin-left: 8px;
+margin-right: 8px;
+font-size: 15px;
+font-weight: bold;;
+cursor: default;
+}
+.category__tile .information{
+    padding-left: 25px;
+}
+.category__tile .information__tile{
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.category__tile .information__price{
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.category__tile hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.category__tile .information__content{
+    margin-bottom: 15px;
+    -webkit-font-smoothing: antialiased;
+}
+.category__tile .information__count{
+    height: 30px;
+}
+.category__tile .information__count .img__cout{
+    height: 20px;
+    margin-right: 10px;
+}
+.category__tile .modal-product-meta .modal-product-meta--ul li strong{
+    min-width: 100px;
+    margin-right: 5px;
+    display: inline-block;
+}
+.category__tile .modal-product-meta .modal-product-meta--ul li{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.category__tile .modal-product-meta .modal-product-meta--ul li span{
+    cursor: pointer;
+}
+.category__tile .Color{
+    display: flex;
+
+}
+.category__tile .Color .Color__title{
+    min-width: 80px;
+    display: inline-block;
+    /* justify-content: center; */
+    align-content: center;
+    font-weight: bold;
+}
+
+.category__tile .Color .Color__colors{
+    display: flex;
+    gap: 5px;
+}
+.category__tile .Color .Color__colors .color--img{
+border-radius: 5px;
+
+}
+.category__tile .ltn__product-details-menu-2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding-right: 20px;
+    width: 100%;
+    height: 100%;
+    /* gap: 10px; */
+    justify-content: space-between;
+
+}
+.category__tile .ltn__product-details-menu-2 ul .coutext{
+    border: none;
+    max-width: 50px;
+    border: 1px solid #ebebeb;
+    text-align: center;
+    font-weight: bold;
+}
+.category__tile .ltn__product-details-menu-2 ul .coutext:focus{
+    outline: none;
+    border: 2px solid #0f6299;
+    border-radius: 5px;
+}
+
+
+.category__tile .ltn__product-details-menu-2 .quantity-selector{
+    display: flex;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    /* height: 100%; */
+    /* width: 100%; */
+}
+.category__tile .ltn__product-details-menu-2 .quantity-selector .add{
+    cursor: pointer;
+    min-width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.category__tile .ltn__product-details-menu-2 ul li .color__button1{
+    width: 190px;
+    height: 70px;
+    border-radius: 8px;
+}
+.category__tile .ltn__product-details-menu-2 ul li .color__button2{
+    width: 100%;
+    height: 100%;
+}
+.category__tile .ltn__product-details-menu-2 ul li .button1{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #6a3ee4;
+    color: #fff;
+    border: 0px;
+    font-weight: bold;
+    transition: background-color 0.1s ease, color 0.1s ease;
+    position: relative;
+    overflow: hidden;
+}
+.category__tile .ltn__product-details-menu-2 ul li .button1::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%; /* Bắt đầu từ ngoài bên trái */
+        width: 100%;
+        height: 100%;
+        border: 1.5px solid black; /* Màu viền */
+        border-radius: 5px; /* Bo tròn như nút */
+        transition: left 0.4s ease;
+}
+.category__tile .ltn__product-details-menu-2 ul li .button1:hover::before{
+    left: 0;
+    background-color: #fff;
+}
+.category__tile .ltn__product-details-menu-2 ul li .button1:hover{
+    /* background-color: #fff; */
+    color: black;
+    /* border: 1.5px solid black; */
+}
+.category__tile .ltn__product-details-menu-2 ul li .button2{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+    border: 0px;
+    font-weight: bold;
+    transition: background-color 0.1s ease, color 0.1s ease;
+}
+.category__tile .ltn__product-details-menu-2 ul li .button2:hover{
+background-color: blue;
+}
+.category__tile .ltn__product-details-menu-3{
+    margin-top: 15px;
+}
+.category__tile .ltn__product-details-menu-3 ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.category__tile .ltn__product-details-menu-3 ul li{
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.category__tile .ship p{
+    margin-bottom: 15px;
+}
+.category__tile .ship p img{
+    height: 25px;
+    margin-right: 10px;
+}
+.category__tile h6{
+    margin-bottom: 15px;
+    font-weight: 700;
+    line-height: 1.3;
+    font-size: 18px;
+}
+.category__tile ul{
+    margin: 0 0 15px 20px;
+    -webkit-font-smoothing: antialiased;
+}
+.category__tile ul li{
+    list-style-type: disc;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+.category__tile .ltn__safe-checkout h5{
+    margin-bottom: 15px;
+}
+.category__tile .ltn__social-media ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+}
+.category__tile .ltn__social-media ul li{
+    list-style-type: none;
+    margin-right: 15px;
+    font-weight: 100;
+    font-size: 16px;
+
+}
+.category__tile .ltn__social-media ul li a{
+    color: black;
+}
+.category__tile .ltn__social-media ul li span{
+    font-size: 14px;
+}
+body .category__detail{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+body .category__detail .ltn__shop--nav{
+
+}
+body .category__detail .ltn__shop--nav a{
+    margin-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 16px;
+    position: relative; /* Để có thể đặt pseudo-element */
+    text-decoration: none; /* Loại bỏ gạch chân mặc định */
+    color: black;
+    cursor: pointer;
+}
+body .category__detail .ltn__shop--nav a::after{
+    content: ''; /* Không có nội dung nhưng tạo một pseudo-element */
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Vị trí của gạch chân bên dưới chữ */
+    width: 100%;
+    height: 2px; /* Độ dày của gạch chân */
+    background-color: black; /* Màu của gạch chân */
+    transform: scaleX(0); /* Không hiển thị gạch chân ban đầu */
+}
+body .category__detail .ltn__shop--nav a.active::after{
+    transform: scaleX(1)
+}
